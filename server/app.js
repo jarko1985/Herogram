@@ -13,7 +13,7 @@ connectDB();
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "http://139.59.143.230",
     methods: ["GET", "POST"],
     credentials: true,
   })
