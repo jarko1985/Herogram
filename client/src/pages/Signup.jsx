@@ -11,7 +11,7 @@ const Signup = () => {
     e.preventDefault();
 
     // Call the backend signup API
-    fetch("http://localhost:3001/auth/signup", {
+    fetch("http://139.59.143.230:3001/auth/signup", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

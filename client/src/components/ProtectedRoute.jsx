@@ -19,7 +19,7 @@ const ProtectedRoute = ({ children }) => {
     }
 
     try {
-      const response = await fetch("http://localhost:3001/auth/check", {
+      const response = await fetch("http://139.59.143.230:3001/auth/check", {
         method: "GET",
         headers: {
           Authorization: `Bearer ${token}`,

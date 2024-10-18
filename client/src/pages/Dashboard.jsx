@@ -7,7 +7,7 @@ const Dashboard = () => {
   const [files, setFiles] = useState([]);
 
   const fetchFiles = () => {
-    fetch("http://localhost:3001/file/list", {
+    fetch("http://139.59.143.230:3001/file/list", {
       credentials: "include",
     })
       .then((response) => response.json())

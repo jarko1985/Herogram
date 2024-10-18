@@ -21,7 +21,7 @@ const FileUpload = ({ onUpload }) => {
     formData.append("tags", tags);
 
     // Call backend API to upload the file
-    fetch("http://localhost:3001/file/upload", {
+    fetch("http://139.59.143.230:3001/file/upload", {
       method: "POST",
       body: formData,
     })
